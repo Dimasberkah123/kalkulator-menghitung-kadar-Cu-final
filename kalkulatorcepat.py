@@ -28,7 +28,7 @@ def calculate_cu_content():
     st.markdown('''Kalkulator cepat ini dibuat bertujuan untuk memudahkan teman-teman menghitung 
             kadar Cu dalam sampel makanan yang sudah dianalisis melalui Spektrofotometri Serapan Atom (SAA).''')
 
-    st.header('Perhitungan kadar Cterukur')
+    st.header('Perhitungan Kadar Cterukur')
     
     st.markdown(
         '<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
