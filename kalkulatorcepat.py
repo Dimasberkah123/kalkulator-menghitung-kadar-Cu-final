@@ -10,7 +10,7 @@ def main():
         calculate_cu_content()
 
 def show_team_members():
-    st.title('۫  ..˖💬໒꒰ྀ Anggota Kelompok 6꒱ྀིঌ₊✁.')
+    st.title('۫  ..˖💬໒꒰ྀ Anggota Kelompok 6꒱ྀིঌ₊')
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
     st.write('''
