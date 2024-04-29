@@ -22,7 +22,7 @@ def show_team_members():
 6. Ratu Amalia Zahara (2320551)''')
 
 def calculate_cu_content():
-    st.title('۫ ..˖💬໒꒰ྀ Kalkulator Cepat Menghitung Kadar Cu ꒱ྀིঌ₊✁.')  
+    st.title('۫𓈒 ׄ ੭୧ Kalkulator Cepat Menghitung Kadar Cu 𖥦 .. ')  
 
     st.markdown('---')
     st.markdown('''Kalkulator cepat ini dibuat bertujuan untuk memudahkan teman-teman menghitung 
