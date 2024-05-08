@@ -55,11 +55,11 @@ def show_BatasMaksimalKadarCu():
     st.dataframe(df)
 
 def show_pendahuluan():
-    st.markdown("<h1 style='color:pink'>..𐙚⋅⋅ Pendahuluan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color:pink'>..🥜𐙚⋅⋅ Pendahuluan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, yellow, green, violet);"/>',
                 unsafe_allow_html=True)
     st.write("Logam Cu merupakan logam berat essensial yang dibutuhkan oleh tubuh dalam jumlah yang kecil, namun bila jumlah yang masuk ke dalam tubuh berlebihan akan berubah fungsi menjadi zat racun bagi tubuh. Keracunan Cu dapat menyebabkan gangguan pada jalur pernapasan. Pada makanan dan minuman sering terdapat unsur-unsur yang tidak mempunyai nilai nutrisi. Adanya unsur-unsur tersebut selalu dihubungkan dengan sifat-sifat yang tidak diinginkan dan kadang-kadang beracun sehingga membahayakan kesehatan konsumen. Oleh karena itu, diperlukan syarat-syarat untuk industri makanan dan minuman agar produksinya tidak membahayakan bagi konsumen, sehingga tujuan pembuatan web ini untuk menghitung kadar cemaran logam Cu yang telah dilakukan pengujian cemaran logam sesuai dengan SNI.")
-    st.markdown("<h1 style='color:violet'>..𐙚⋅⋅ Tujuan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color:violet'>..🧇𐙚⋅⋅ Tujuan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, indigo);"/>',
                 unsafe_allow_html=True)
     st.write('''Selain bertujuan untuk menghitung kadar agar sesuai dengan SNI. Analisis kadar tembaga pada produk pangan juga dilakukan dengan beberapa tujuan utama:
