@@ -132,7 +132,6 @@ def show_pendahuluan():
 
 # Tambahkan elemen dengan kelas "bounce" untuk menerapkan animasi bounce
     st.write('<div class="bounce">۫  ..˖💬໒꒰ྀ Halooo! >_<</div>', unsafe_allow_html=True)
-    st.markdown('---')
     st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Selamat Datang di Kalkulator Cepat Kadar Cu❗❗6꒱ྀིঌ₊", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
