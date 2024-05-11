@@ -120,7 +120,7 @@ def show_pendahuluan():
         transform: translateY(0);
         }
         50% {
-        transform: translateY(20px);
+        transform: translateY(50px);
         }
         }
 
