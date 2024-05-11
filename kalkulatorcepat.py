@@ -25,7 +25,7 @@ if __name__ == '__main__':
     
 def main():
     st.sidebar.header("Navigasi")
-    selected = st.sidebar.selectbox("Pilih halaman:", ["Pendahuluan", "Tentang Cu", "Batas Maksimal Kadar Cu", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
+    selected = st.sidebar.selectbox("Pilih halaman:", ["ʚїɞ Pendahuluan", "ʚїɞ Tentang Cu", "ʚїɞ Batas Maksimal Kadar Cu", "ʚїɞ Petunjuk Penggunaan Aplikasi","ʚїɞ Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "ʚїɞ Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
 
     if selected == "Pendahuluan":
         show_pendahuluan()
