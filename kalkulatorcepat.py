@@ -27,17 +27,17 @@ def main():
     st.sidebar.header("Navigasi")
     selected = st.sidebar.selectbox("Pilih halaman:", ["ʚїɞ Pendahuluan", "ʚїɞ Tentang Cu", "ʚїɞ Batas Maksimal Kadar Cu", "ʚїɞ Petunjuk Penggunaan Aplikasi","ʚїɞ Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "ʚїɞ Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
 
-    if selected == "Pendahuluan":
+    if selected == "ʚїɞ Pendahuluan":
         show_pendahuluan()
-    elif selected == "Tentang Cu":
+    elif selected == "ʚїɞ Tentang Cu":
         show_TentangCu()
-    elif selected == "Batas Maksimal Kadar Cu":
+    elif selected == "ʚїɞ Batas Maksimal Kadar Cu":
         show_BatasMaksimalKadarCu()
-    elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)":
+    elif selected == "ʚїɞ Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)":
         calculate_cu_content()
-    elif selected == "Petunjuk Penggunaan Aplikasi":  
+    elif selected == "ʚїɞ Petunjuk Penggunaan Aplikasi":  
         show_penggunaan_aplikasi()  
-    elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)":
+    elif selected == "ʚїɞ Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)":
         calculate_cu_liquid()
 
 def show_BatasMaksimalKadarCu():
