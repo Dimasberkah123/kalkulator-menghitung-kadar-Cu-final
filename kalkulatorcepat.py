@@ -136,6 +136,7 @@ def show_pendahuluan():
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
     image_path = kelompok.jpg'# Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path,caption='Anggota Kelompok 6')
 
 def calculate_cu_content():
     st.title('۫𓈒 ׄ ੭୧ Kalkulator Cepat Menghitung Kadar Cu Pada Sampel Padatan ྀ🍬 ঌ .. ')  
