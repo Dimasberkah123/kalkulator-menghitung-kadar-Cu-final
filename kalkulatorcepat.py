@@ -135,15 +135,7 @@ def show_pendahuluan():
     st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Selamat Datang di Kalkulator Cepat Kadar Cu❗❗6꒱ྀིঌ₊", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
-    image_path = 'dimas.jpeg'# Ganti dengan path yang sesuai ke file gambar Anda
-    st.image(image_path, caption='Dimas Farrel Arunajati (2320511)')
-    st.write(''' Kalkulator Cepat Kadar Cu ini disusun oleh :
-1. Andiani Putri Wijiyanti (2320507)
-2. Azizah lintang Maylya (2320511)
-3. Dimas Farrel Arunajati (2320519)
-4. Fadhlurahman Rayyandani Shafwan (2320522)
-5. Putri Chalis Lestari (2320544)
-6. Ratu Amalia Zahara (2320551)''')
+    image_path = kelompok.jpg'# Ganti dengan path yang sesuai ke file gambar Anda
 
 def calculate_cu_content():
     st.title('۫𓈒 ׄ ੭୧ Kalkulator Cepat Menghitung Kadar Cu Pada Sampel Padatan ྀ🍬 ঌ .. ')  
