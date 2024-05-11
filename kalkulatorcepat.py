@@ -3,12 +3,12 @@ import pandas as pd
 
 def main():
     st.sidebar.header("Navigasi")
-    selected = st.sidebar.selectbox("Pilih halaman:", ["Anggota Tim", "Pendahuluan", "Batas Maksimal Kadar Cu", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
+    selected = st.sidebar.selectbox("Pilih halaman:", ["Pendahuluan", "Tentang Cu", "Batas Maksimal Kadar Cu", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
 
-    if selected == "Anggota Tim":
-        show_team_members()
-    elif selected == "Pendahuluan":
+    if selected == "Pendahuluan":
         show_pendahuluan()
+    elif selected == "Tentang Cu":
+        show_tentang_cu()
     elif selected == "Batas Maksimal Kadar Cu":
         show_BatasMaksimalKadarCu()
     elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)":
@@ -54,8 +54,8 @@ def show_BatasMaksimalKadarCu():
     st.write("Berikut beberapa daftar maksimal kadar Cu pada produk pangan menurut SNI:")
     st.dataframe(df)
 
-def show_pendahuluan():
-    st.markdown("<h1 style='color:pink'>..🥜𐙚⋅⋅ Pendahuluan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
+def show_Tentang_Cu():
+    st.markdown("<h1 style='color:pink'>..🥜𐙚⋅⋅ Apaa itu Cu ⁉️ 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, yellow, green, violet);"/>',
                 unsafe_allow_html=True)
     st.write("Logam Cu merupakan logam berat essensial yang dibutuhkan oleh tubuh dalam jumlah yang kecil, namun bila jumlah yang masuk ke dalam tubuh berlebihan akan berubah fungsi menjadi zat racun bagi tubuh. Keracunan Cu dapat menyebabkan gangguan pada jalur pernapasan. Pada makanan dan minuman sering terdapat unsur-unsur yang tidak mempunyai nilai nutrisi. Adanya unsur-unsur tersebut selalu dihubungkan dengan sifat-sifat yang tidak diinginkan dan kadang-kadang beracun sehingga membahayakan kesehatan konsumen. Oleh karena itu, diperlukan syarat-syarat untuk industri makanan dan minuman agar produksinya tidak membahayakan bagi konsumen, sehingga tujuan pembuatan web ini untuk menghitung kadar cemaran logam Cu yang telah dilakukan pengujian cemaran logam sesuai dengan SNI.")
@@ -90,11 +90,11 @@ def show_penggunaan_aplikasi():
 6. Masukkan cterukur, volume labu takar, faktor pengenceran, dan bobot sampel atau volume sampel
 7. Klik kolom hitung kadar cemaran Cu''')            
 
-def show_team_members():
-    st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Anggota Kelompok 6꒱ྀིঌ₊'</h1>", unsafe_allow_html=True)
+def show_pendahuluan():
+    st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Halooo! Selamat Datang di Kalkulator Cepat Kadar Cu❗❗>-<6꒱ྀིঌ₊'</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
-    st.write('''
+    st.write(''' Kalkulator Cepat Kadar Cu ini disusun oleh :
 1. Andiani Putri Wijiyanti (2320507)
 2. Azizah lintang Maylya (2320511)
 3. Dimas Farrel Arunajati (2320519)
