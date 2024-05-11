@@ -135,6 +135,9 @@ def show_pendahuluan():
     st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Selamat Datang di Kalkulator Cepat Kadar Cu❗❗6꒱ྀིঌ₊", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
+    image_path = 'chalis.JPEG'  # Ganti dengan path yang sesuai ke file gambar Anda
+    st.image(image_path, caption='''Putri Chalis Lestari
+                                    (2320544''')
     st.write(''' Kalkulator Cepat Kadar Cu ini disusun oleh :
 1. Andiani Putri Wijiyanti (2320507)
 2. Azizah lintang Maylya (2320511)
