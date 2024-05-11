@@ -27,7 +27,7 @@ def main():
     if selected == "Pendahuluan":
         show_pendahuluan()
     elif selected == "Tentang Cu":
-        show_tentang_cu()
+        show_TentangCu()
     elif selected == "Batas Maksimal Kadar Cu":
         show_BatasMaksimalKadarCu()
     elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)":
@@ -73,7 +73,7 @@ def show_BatasMaksimalKadarCu():
     st.write("Berikut beberapa daftar maksimal kadar Cu pada produk pangan menurut SNI:")
     st.dataframe(df)
 
-def show_Tentang_Cu():
+def show_TentangCu():
     st.markdown("<h1 style='color:pink'>..🥜𐙚⋅⋅ Apaa itu Cu ⁉️ 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, yellow, green, violet);"/>',
                 unsafe_allow_html=True)
