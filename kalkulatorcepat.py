@@ -1,6 +1,25 @@
 import streamlit as st
 import pandas as pd
 
+# Fungsi untuk mengatur warna background
+def set_background_color(color):
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-color: {color};
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+# Fungsi utama aplikasi
+def main():
+    # Pemilihan warna background
+    color = st.color_picker("Pilih warna untuk background:", "#FFFFFF")
+    set_background_color(color)
+    
 def main():
     st.sidebar.header("Navigasi")
     selected = st.sidebar.selectbox("Pilih halaman:", ["Pendahuluan", "Tentang Cu", "Batas Maksimal Kadar Cu", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
