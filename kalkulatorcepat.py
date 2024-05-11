@@ -19,6 +19,9 @@ def main():
     # Pemilihan warna background
     color = st.color_picker("Pilih warna untuk background:", "#FFFFFF")
     set_background_color(color)
+
+if __name__ == '__main__':
+    main()
     
 def main():
     st.sidebar.header("Navigasi")
@@ -264,5 +267,4 @@ def calculate_cu_liquid():
         kadar_cemaran_cu = (c_terukur * v * FP) / (volume_sampel)
         st.write(f"Hasil perhitungan kadar cemaran Cu = {kadar_cemaran_cu} ppm")
         
-if __name__ == '__main__':
-    main()
+
