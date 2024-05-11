@@ -113,6 +113,26 @@ def show_penggunaan_aplikasi():
 7. Klik kolom hitung kadar cemaran Cu''')            
 
 def show_pendahuluan():
+    # Tambahkan CSS
+st.markdown("""
+<style>
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce {
+  animation: bounce 0.5s infinite;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# Tambahkan elemen dengan kelas "bounce" untuk menerapkan animasi bounce
+st.write('<div class="bounce">۫  ..˖💬໒꒰ྀ Halooo! >_<</div>', unsafe_allow_html=True)
     st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Halooo! >_<<", unsafe_allow_html=True)
     st.markdown('---')
     st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Selamat Datang di Kalkulator Cepat Kadar Cu❗❗6꒱ྀིঌ₊", unsafe_allow_html=True)
