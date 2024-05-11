@@ -135,7 +135,7 @@ def show_pendahuluan():
     st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Selamat Datang di Kalkulator Cepat Kadar Cu❗❗6꒱ྀིঌ₊", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
-    image_path = kelompok.jpg'# Ganti dengan path yang sesuai ke file gambar Anda
+    image_path = 'kelompok.jpg'# Ganti dengan path yang sesuai ke file gambar Anda
     st.image(image_path,caption='Anggota Kelompok 6')
 
 def calculate_cu_content():
